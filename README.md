@@ -11,6 +11,13 @@ jot list
 jot count
 ```
 
+### Clip a web page
+
+```bash
+export FIRECRAWL_API_KEY=fc-...   # free key at https://firecrawl.dev
+jot clip https://example.com
+```
+
 Notes live in `~/.jotter/notes.json` (set `JOTTER_HOME` to move them).
 
 ## Plugins
